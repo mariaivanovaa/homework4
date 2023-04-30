@@ -3,8 +3,9 @@
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 19px;
-color: #03A9F4;
+line-height: 1.35;
+color: #7D7D7D;;
+text-decoration: none;
 }
 
 .nav-list-img{
@@ -16,7 +17,7 @@ width: 419px;height: 280px;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 1.33;
     color: #626262;
 }
 
@@ -26,7 +27,7 @@ width: 419px;height: 280px;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     color: #B4AD9E;
 }
 
@@ -36,12 +37,9 @@ width: 419px;height: 280px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
+    line-height:1.35;
     color: #626262;
 }
 
-.buttton
-{
-width: 165px;
-height: 60px;
-}
+.nav-list-link:hover{color: #03A9F4;}
+.nav-list {list-style-type: none;}
