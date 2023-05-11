@@ -1,45 +1,119 @@
-.nav-list-link
-{font-family:'Playfair dispay' ;
+p, h2, ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Playfair Display',serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.35;
-color: #7D7D7D;;
-text-decoration: none;
+
+color: #626262;
+
 }
 
-.nav-list-img{
-width: 419px;height: 280px; 
+img, button{
+    display:block;
 }
 
-.nav-list-title
-{font-family:'Playfair dispay' ;
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+display: flex;
+justify-content: space-between;
+width: 555px;
+}
+
+.nav-menu{
+    padding: 71px 0 92px ;
+}
+
+
+.nav-list-link
+{
+color: #7D7D7D;
+
+}
+.nav-list-link:hover, .nav-list-link:focus{color: #03A9F4;}
+
+/* main */
+.content{
+    padding-bottom: 66px;
+}
+
+.main-list{
+    display: flex;
+    width: 906px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main-list-item:not(:nth-child(n+5)){
+    margin-bottom: 130px;
+}
+
+
+
+
+.main-list-img{
+width: 419px;
+height: 280px;
+margin-bottom: 62px; 
+}
+
+.main-list-title
+{font-family:'Playfair dispay', serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.33;
     color: #626262;
+    margin-bottom: 40px;
 }
 
-.nav-list-subtitle
+.main-list-subtitle
 {
-    font-family:'Ubuntu' ;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
+    font-family:'Ubuntu', sans-serif ;
+      font-weight: 300;
     line-height: 1.14;
     color: #B4AD9E;
+    margin-bottom: 32px;
 }
 
-.nav-list-text
+.main-list-text
 {
-    font-family:'Playfair dispay' ;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height:1.35;
-    color: #626262;
+    width: 420px;
+}
+.button
+{
+width: 165px;
+height: 60px;
+border: 1px solid #626262;
+color:#626262;
+font-family: 'Playfair Display',serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.35;
+margin: 90px auto 0;
 }
 
-.nav-list-link:hover{color: #03A9F4;}
-.nav-list {list-style-type: none;}
